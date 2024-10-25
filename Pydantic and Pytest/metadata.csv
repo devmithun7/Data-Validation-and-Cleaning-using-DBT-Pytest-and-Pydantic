@@ -1,0 +1,4 @@
+file_size_bytes,num_pages,s3_grobid_text_link,file_path,encryption,date_updated
+829422,27,s3://bigdatacasestudy2/GrobidFiles/Grobid_RR_2024_l1_combined.txt,/Users/Aneesh/Downloads/Archive 2 2/2024-l1-topics-combined-2.pdf,No,03/01/2024
+261786,25,s3://bigdatacasestudy2/GrobidFiles/Grobid_RR_2024_l2_combined.txt,/Users/Aneesh/Downloads/Archive 2 2/2024-l2-topics-combined-2.pdf,No,03/01/2024
+262067,18,s3://bigdatacasestudy2/GrobidFiles/Grobid_RR_2024_l3_combined.txt,/Users/Aneesh/Downloads/Archive 2 2/2024-l3-topics-combined-2.pdf,No,03/01/2024

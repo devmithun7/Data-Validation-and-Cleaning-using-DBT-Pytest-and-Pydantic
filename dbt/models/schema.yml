@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: cfa_model
+    description: Model representing final data
+    columns:
+      - name: YEAR
+        description: Year of CFA article
+        tests:
+          - not_null
+      - name: LEVEL
+        description: Level of CFA article
+        tests:
+          - not_null
+      - name: TOPIC
+        description: Parent Topic of CFA article
+        tests:
+          - not_null
+      - name: NUMBER_OF_ARTICLES
+        description: Total number of CFA articles under corresponding topic in corresponding year
+      - name: MIN_SUMMARY
+        description: Length of shortest Summary of CFA article
+        tests:
+          - not_null
+      - name: MAX_SUMMARY
+        description: Length of longest Summary of CFA article
+        tests:
+          - not_null
+      - name: MIN_LEARNING_OUTCOME
+        description: Length of shortest Learning Outcome of CFA article
+        tests:
+          - not_null
+      - name: MAX_LEARNING_OUTCOME
+        description: Length of longest Learning Outcome of CFA article
+        tests:
+          - not_null
